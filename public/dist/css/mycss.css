@@ -1,0 +1,62 @@
+.slideshow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-inner-alt{
+    height: 80vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* position: absolute;
+    left: 0; */
+}
+
+.slideshow-container{
+    height: 80vh;
+}
+
+.container-alt{
+    margin-top: 3em;
+}
+.gambar_kategori:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+.overflowhidden{
+    overflow: hidden;
+}
+.card-body-altert{
+    margin-top: 1rem;
+}
+.center {
+    border: 5px solid;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+.footer{
+    /* padding: 1em; */
+}
+
+/* .medsos{
+    position: relative; 
+    display:flex;
+    align-items: right; 
+    justify-content: right"
+} */
+@media screen and (max-width: 1000px){
+    .carousel-inner-alt{
+        
+    }
+}
+
+

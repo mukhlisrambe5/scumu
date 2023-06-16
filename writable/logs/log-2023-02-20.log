@@ -1,0 +1,198 @@
+CRITICAL - 2023-02-20 03:52:28 --> The framework needs the following extension(s) installed and loaded: intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-02-20 03:52:28 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php:872
+Stack trace:
+#0 C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php(1115): CodeIgniter\CLI\CLI::init()
+#2 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(312): include_once('C:\\Mukhlis File...')
+#3 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Mukhlis File...')
+#4 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Mukhlis File\APP\umkmmarketing\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Mukhlis File\APP\umkmmarketing\app\Views\errors\cli\production.php(5): include('C:\\Mukhlis File...')
+#7 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(277): include('C:\\Mukhlis File...')
+#8 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(280): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#9 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(151): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#10 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#11 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl, mbstring.
+#0 C:\Mukhlis File\APP\umkmmarketing\system\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+#1 C:\Mukhlis File\APP\umkmmarketing\system\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Mukhlis File\APP\umkmmarketing\spark(83): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\CLI\CLI.php on line 872.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-20 03:53:25 --> The framework needs the following extension(s) installed and loaded: intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-02-20 03:53:25 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php:872
+Stack trace:
+#0 C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php(1115): CodeIgniter\CLI\CLI::init()
+#2 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(312): include_once('C:\\Mukhlis File...')
+#3 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Mukhlis File...')
+#4 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Mukhlis File\APP\umkmmarketing\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Mukhlis File\APP\umkmmarketing\app\Views\errors\cli\production.php(5): include('C:\\Mukhlis File...')
+#7 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(277): include('C:\\Mukhlis File...')
+#8 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(280): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#9 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(151): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#10 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#11 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl, mbstring.
+#0 C:\Mukhlis File\APP\umkmmarketing\system\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+#1 C:\Mukhlis File\APP\umkmmarketing\system\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Mukhlis File\APP\umkmmarketing\spark(83): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\CLI\CLI.php on line 872.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-20 03:54:26 --> The framework needs the following extension(s) installed and loaded: intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-02-20 03:54:26 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php:872
+Stack trace:
+#0 C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php(1115): CodeIgniter\CLI\CLI::init()
+#2 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(312): include_once('C:\\Mukhlis File...')
+#3 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Mukhlis File...')
+#4 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Mukhlis File\APP\umkmmarketing\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(277): include('C:\\Mukhlis File...')
+#7 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(280): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(151): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl, mbstring.
+#0 C:\Mukhlis File\APP\umkmmarketing\system\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+#1 C:\Mukhlis File\APP\umkmmarketing\system\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Mukhlis File\APP\umkmmarketing\spark(83): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\CLI\CLI.php on line 872.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-20 03:55:18 --> The framework needs the following extension(s) installed and loaded: intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-02-20 03:55:18 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php:872
+Stack trace:
+#0 C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php(1115): CodeIgniter\CLI\CLI::init()
+#2 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(312): include_once('C:\\Mukhlis File...')
+#3 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Mukhlis File...')
+#4 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Mukhlis File\APP\umkmmarketing\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(277): include('C:\\Mukhlis File...')
+#7 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(280): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(151): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl, mbstring.
+#0 C:\Mukhlis File\APP\umkmmarketing\system\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+#1 C:\Mukhlis File\APP\umkmmarketing\system\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Mukhlis File\APP\umkmmarketing\spark(83): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\CLI\CLI.php on line 872.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-20 03:56:34 --> The framework needs the following extension(s) installed and loaded: intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-02-20 03:56:34 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php:872
+Stack trace:
+#0 C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php(1115): CodeIgniter\CLI\CLI::init()
+#2 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(312): include_once('C:\\Mukhlis File...')
+#3 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Mukhlis File...')
+#4 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Mukhlis File\APP\umkmmarketing\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(277): include('C:\\Mukhlis File...')
+#7 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(280): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(151): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl, mbstring.
+#0 C:\Mukhlis File\APP\umkmmarketing\system\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+#1 C:\Mukhlis File\APP\umkmmarketing\system\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Mukhlis File\APP\umkmmarketing\spark(83): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\CLI\CLI.php on line 872.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-20 03:59:05 --> The framework needs the following extension(s) installed and loaded: intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-02-20 03:59:05 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php:872
+Stack trace:
+#0 C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php(1115): CodeIgniter\CLI\CLI::init()
+#2 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(312): include_once('C:\\Mukhlis File...')
+#3 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Mukhlis File...')
+#4 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Mukhlis File\APP\umkmmarketing\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(277): include('C:\\Mukhlis File...')
+#7 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(280): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(151): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl, mbstring.
+#0 C:\Mukhlis File\APP\umkmmarketing\system\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+#1 C:\Mukhlis File\APP\umkmmarketing\system\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Mukhlis File\APP\umkmmarketing\spark(83): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\CLI\CLI.php on line 872.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-20 04:02:24 --> The framework needs the following extension(s) installed and loaded: intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-02-20 04:02:24 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php:872
+Stack trace:
+#0 C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Mukhlis File\APP\umkmmarketing\system\CLI\CLI.php(1115): CodeIgniter\CLI\CLI::init()
+#2 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(312): include_once('C:\\Mukhlis File...')
+#3 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Mukhlis File...')
+#4 C:\Mukhlis File\APP\umkmmarketing\system\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Mukhlis File\APP\umkmmarketing\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(277): include('C:\\Mukhlis File...')
+#7 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(280): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\Mukhlis File\APP\umkmmarketing\system\Debug\Exceptions.php(151): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl, mbstring.
+#0 C:\Mukhlis File\APP\umkmmarketing\system\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+#1 C:\Mukhlis File\APP\umkmmarketing\system\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Mukhlis File\APP\umkmmarketing\spark(83): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\CLI\CLI.php on line 872.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
